@@ -23,7 +23,7 @@ class RAGEngine:
         try:
             self.qa_pipeline = pipeline(
                 "text2text-generation",
-                model="google/flan-t5-base",
+                model="google/flan-t5-large",
                 max_length=512
             )
         except Exception as e:
