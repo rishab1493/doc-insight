@@ -71,12 +71,14 @@ The frontend will be available at `http://localhost:5173`
 The frontend can be deployed for free on Vercel or Netlify:
 
 **Vercel:**
+
 ```bash
 cd frontend
 vercel deploy
 ```
 
 **Netlify:**
+
 ```bash
 cd frontend
 npm run build
@@ -86,15 +88,18 @@ npm run build
 ### Backend (Free Options)
 
 1. **HuggingFace Spaces** (Recommended)
+
    - Free GPU support
    - Built for ML applications
    - Push to HF Spaces repository
 
 2. **Railway**
+
    - 500 hours/month free tier
    - Easy GitHub integration
 
 3. **Render**
+
    - Free tier available
    - Sleeps after 15 min inactivity
 
@@ -106,7 +111,6 @@ npm run build
 
 ### Backend
 
-- `HUGGINGFACE_API_TOKEN`: Your HuggingFace API token
 - `UPLOAD_DIR`: Directory for temporary file storage (default: ./uploads)
 - `MAX_FILE_SIZE`: Maximum upload size in MB (default: 10)
 
@@ -136,4 +140,3 @@ MIT
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-

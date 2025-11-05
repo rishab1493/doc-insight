@@ -22,8 +22,8 @@ class RAGEngine:
         print("Loading QA model...")
         try:
             self.qa_pipeline = pipeline(
-                "text2text-generation",
-                model="google/flan-t5-large",
+                "question-answering",
+                model="distilbert-base-cased-distilled-squad",
                 max_length=512
             )
         except Exception as e:
