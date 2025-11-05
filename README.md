@@ -42,12 +42,6 @@ cd backend
 pip install -r requirements.txt
 ```
 
-Create a `.env` file in the backend directory:
-
-```
-HUGGINGFACE_API_TOKEN=your_token_here
-```
-
 Run the backend:
 
 ```bash
